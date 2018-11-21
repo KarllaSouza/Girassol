@@ -1,4 +1,0 @@
-#Wed Nov 21 19:16:47 GFT 2018
-base.0=D\:\\Eike\\projetos\\girassol\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
