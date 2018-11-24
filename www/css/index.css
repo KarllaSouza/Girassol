@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+#container {
+	width: 100%;
+	margin: auto;
+}
+
+#tab-content {
+	width: 98%;
+	margin: auto;	
+}
+
+#menu{
+    width: 100%;
+    background-color: #3dc1d3;
+}
+
+#fraseEfeito{
+    font-family: 'Lobster Two', cursive;
+    color: #f5cd79;
+    text-align: center;
+    font-size:120%;
+    background-color: white;
+    padding-top: 0.2%;
+    border-bottom: solid 1px red;
+}
+
+#menu h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 0%;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+.btn {
+    border: none;
+    font-size: 15px;
+    font-weight: normal;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    padding: 8px 14px;
+    margin-bottom: 5px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+    transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+}
+.btn-default, a.btn-default:link, a.btn-default:visited {
+    color: #fff;
+    background-color: #556b8d;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #ffffff;
+    background-color: #5f779d;
+    border-color: #5f779d; 
+}
+.btn:hover, .btn:focus {
+    outline: none;
+}

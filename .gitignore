@@ -71,3 +71,5 @@ platforms/browser/www
 
 # res
 resources/signing
+res/*
+.idea/*
