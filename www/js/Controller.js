@@ -3,8 +3,8 @@ var Controller = function() {
         self: null,
         initialize: function() {
             self = this;
-            this.bindEvents();
-            self.renderMainView(); 
+            self.renderMainView();
+            // self.bindEvents(); 
         },
 
         bindEvents: function() {
@@ -18,10 +18,12 @@ var Controller = function() {
             }
             
             var tab = $(this).data('tab');
-            if (tab === '#add-tab') {
-                self.renderPostView();
+            if (tab === '#sobre-tab') {
+                console.log("evento if");
+                self.renderSobreView();
             } else {
-                self.renderSearchView();
+                console.log("evento else");
+                self.renderHistoriaView();
             }
         },
 
@@ -41,9 +43,25 @@ var Controller = function() {
             $tab.empty();
             $("#tab-content").load("./views/main-view.html", function(data) {
                 // $('#tab-content').find('#post-project-form').on('submit', self.postProject);
+                self.bindEvents();
+            }); 
+        },
+
+        renderHistoriaView: function() {
+            var $tab = $('#tab-content');
+            $tab.empty();
+            $("#tab-content").load("./views/historia-view.html", function(data) {
+                // $('#tab-content').find('#post-project-form').on('submit', self.postProject);
             }); 
         },
        
+        renderSobreView: function() {
+            var $tab = $('#tab-content');
+            $tab.empty();
+            $("#tab-content").load("./views/sobre-view.html", function(data) {
+                // $('#tab-content').find('#post-project-form').on('submit', self.postProject);
+            }); 
+        },
        
         renderSearchView: function() {
             $('.tab-button').removeClass('active');

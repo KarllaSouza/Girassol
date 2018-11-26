@@ -1,5 +1,6 @@
 *{
     margin: 0%;
+    font-family: 'Open Sans', sans-serif;
 }
 .uppercase {
     text-transform: uppercase;
@@ -26,12 +27,12 @@
 
 #fraseEfeito{
     font-family: 'Lobster Two', cursive;
-    color: #f5cd79;
+    color: #ffb142;
     text-align: center;
     font-size:120%;
-    background-color: white;
+    background-color: #fbfbfb;
     padding-top: 0.2%;
-    border-bottom: solid 1px red;
+    border-bottom: solid 1px #fbfbfb;
 }
 
 #menu h1{
@@ -78,30 +79,22 @@
     -webkit-animation:fade 3000ms infinite;
 }
 
-.btn {
-    border: none;
-    font-size: 15px;
-    font-weight: normal;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    border-radius: 3px;
-    padding: 8px 14px;
-    margin-bottom: 5px;
-    -webkit-font-smoothing: subpixel-antialiased;
-    -webkit-transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
-    transition: border 0.25s linear, color 0.25s linear, background-color 0.25s linear;
+#historia-tab-button{
+    width: 49.9%;
+    padding: 10px 0;
+    margin-left: 25%;
+    margin-top: 30%;
+    font-size: 7vw;
 }
-.btn-default, a.btn-default:link, a.btn-default:visited {
-    color: #fff;
-    background-color: #556b8d;
+#teste-tab-button{
+    width: 49.9%;
+    padding: 10px 0;
+    margin-left: 25%;
+    font-size: 7vw;
 }
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
-    color: #ffffff;
-    background-color: #5f779d;
-    border-color: #5f779d; 
-}
-.btn:hover, .btn:focus {
-    outline: none;
+#sobre-tab-button{
+    width: 49.9%;
+    padding: 10px 0;
+    margin-left: 25%;
+    font-size: 7vw;
 }

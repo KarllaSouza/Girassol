@@ -73,3 +73,8 @@ platforms/browser/www
 resources/signing
 res/*
 .idea/*
+
+#vscode
+.vscode/*
+typings/*
+jsconfig.json
