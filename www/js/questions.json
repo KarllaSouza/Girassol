@@ -1,0 +1,526 @@
+{
+    "perguntas": [
+        {
+            "pergunta": "1. Está conectado à internet mais tempo do que pretendia?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "2. Negligência tarefas domésticas (lavar louça, arrumar a cama, etc.) para passar mais tempo conectado(a)?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "3. Prefere a euforia da internet a convivência e/ou relação com seus amigos ou namorado(a)?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "4. Estabelece novas relações com outros utilizadores na internet?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "5. As pessoas próximas de si se queixam sobre o tempo que passa conectado(a)?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "6. Verifica o seu e-mail ou redes sociais antes de qualquer coisa que faça no dia?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "7. O seu desempenho ou produtividade nos estudos sofre prejuízo devido à internet?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "8. Tem uma atitude defensiva ou de tentar esconder quando alguém lhe pergunta o que está fazendo na internet?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "9. Bloqueia os pensamentos perturbadores/negativos sobre a sua vida com pensamentos reconfortantes na internet?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "10. Tem receio de que a vida sem internet fique aborrecida, vazia e sem alegria?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "11. Reclama, grita ou fica irritado(a) se alguém o(a) incomoda enquanto está na internet?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "12. Perde o sono devido a ficar na internet até muito tarde?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "13. Fica ansioso(a) e/ou preocupado(a) quando não está acessando a internet?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "14. Diz a si mesmo(a) “só vou ficar mais uns minutos” quando está na internet?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "15. Tenta reduzir a quantidade de tempo que passa na internet e não consegue?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "16. Tenta esconder a quantidade de tempo que passa na internet?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "17. Escolhe passar mais tempo na internet em detrimento de sair com outras pessoas?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        },
+        {
+            "pergunta": "18. Se sente deprimido(a), instável ou nervoso(a) quando não está na internet e isso desaparece quando volta a estar conectado(a)?",
+            "alternativas": [
+                {
+                    "alternativa": "Não se aplica",
+                    "valor": 0
+                }, 
+                {
+                    "alternativa": "Raramente",
+                    "valor": 1
+                }, 
+                {
+                    "alternativa": "Ocasionalmente",
+                    "valor": 2
+                }, 
+                {
+                    "alternativa": "Frequentemente",
+                    "valor": 3
+                }, 
+                {
+                    "alternativa": "Quase sempre",
+                    "valor": 4
+                }, 
+                {
+                    "alternativa": "Sempre",
+                    "valor": 5
+                }
+            ]
+        }
+    ]
+}

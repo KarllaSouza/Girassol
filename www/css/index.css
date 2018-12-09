@@ -79,22 +79,52 @@
     -webkit-animation:fade 3000ms infinite;
 }
 
-#historia-tab-button{
-    width: 49.9%;
+#sobre-tab-button{
+    width: 90%;
     padding: 10px 0;
-    margin-left: 25%;
+    margin-left: 1%;
     margin-top: 30%;
     font-size: 7vw;
 }
 #teste-tab-button{
-    width: 49.9%;
+    width: 90%;
     padding: 10px 0;
-    margin-left: 25%;
+    margin-left: 1%;
     font-size: 7vw;
 }
-#sobre-tab-button{
-    width: 49.9%;
+#contato-tab-button{
+    width: 90%;
     padding: 10px 0;
-    margin-left: 25%;
+    margin-left: 1%;
     font-size: 7vw;
+}
+
+#enunciado{
+    font-size: 22px;
+}
+
+.justificado{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#quizView{
+    widows: 90%;
+    margin: 1% 1% 1% 1%;
+
+}
+
+.ui-radio input[type="radio"] {
+    display: none;
+  }
+
+.ui-radio .ui-btn.ui-radio-on::after {
+    visibility: hidden;
+}
+.ui-radio .ui-btn.ui-radio-off::after {
+    visibility: hidden;
+}
+
+.ui-radio .ui-radio-on{
+    background-color: #ffb142;
 }

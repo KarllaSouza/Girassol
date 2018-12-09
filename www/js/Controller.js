@@ -4,7 +4,6 @@ var Controller = function() {
         initialize: function() {
             self = this;
             self.renderMainView();
-            // self.bindEvents(); 
         },
 
         bindEvents: function() {
@@ -13,17 +12,14 @@ var Controller = function() {
 
         onTabClick: function(e) {
             e.preventDefault();
-            if ($(this).hasClass('active')) {
-                return;
-            }
             
             var tab = $(this).data('tab');
             if (tab === '#sobre-tab') {
-                console.log("evento if");
                 self.renderSobreView();
-            } else {
-                console.log("evento else");
-                self.renderHistoriaView();
+            } else if (tab === '#contato-tab') {
+                self.renderContatoView();
+            } else if (tab === '#teste-tab'){
+                self.renderTesteView();
             }
         },
 
@@ -47,10 +43,10 @@ var Controller = function() {
             }); 
         },
 
-        renderHistoriaView: function() {
+        renderContatoView: function() {
             var $tab = $('#tab-content');
             $tab.empty();
-            $("#tab-content").load("./views/historia-view.html", function(data) {
+            $("#tab-content").load("./views/contato-view.html", function(data) {
                 // $('#tab-content').find('#post-project-form').on('submit', self.postProject);
             }); 
         },
@@ -60,6 +56,17 @@ var Controller = function() {
             $tab.empty();
             $("#tab-content").load("./views/sobre-view.html", function(data) {
                 // $('#tab-content').find('#post-project-form').on('submit', self.postProject);
+            }); 
+        },
+        
+        renderTesteView: function() {
+            var $tab = $('#tab-content');
+            $tab.empty();
+            $("#tab-content").load("./views/teste-view.html", function(data) {
+                quizMaster.execute("./js/questions.json", ".quizdisplay", function(result) {
+                    console.log("SUCESS CB");
+                    console.dir(result);	
+                });
             }); 
         },
        
