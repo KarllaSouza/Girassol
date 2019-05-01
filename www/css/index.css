@@ -114,6 +114,11 @@
 
 }
 
+.conteudo-texto {
+    widows: 90%;
+    margin: 1% 1% 1% 1%;
+}
+
 .ui-radio input[type="radio"] {
     display: none;
   }
@@ -127,4 +132,12 @@
 
 .ui-radio .ui-radio-on{
     background-color: #ffb142;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.texto {
+    font-size: 16px;
 }
