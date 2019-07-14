@@ -10,6 +10,14 @@ var app = {
     },
 
     onDeviceReady: function() {
+        document.addEventListener("backbutton", function(e){
+            if(document.getElementById('homepage')){
+                e.preventDefault();
+                navigator.app.exitApp();
+            } else if ( document.getElementsByClassName('conteudo-texto')){
+                controller.renderMainView();
+            }
+         }, false)
         controller = new Controller();
         app.overrideBrowserAlert();
     },
