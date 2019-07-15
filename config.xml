@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.girassol" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.santiago.girassol" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Girassol</name>
     <description>
         Trabalho de conclusão de curso. Teste do instituto DELETE para detecção de depressão.
@@ -19,6 +19,8 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <icon density="mdpi" height="57" platform="android" src="www/img/logo.png" width="57" />
+        <preference name="android-minSdkVersion" value="28" />
+        <preference name="android-targetSdkVersion" value="28"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />

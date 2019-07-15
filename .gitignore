@@ -52,6 +52,8 @@ platforms/android/local.properties
 platforms/android/CordovaLib/build
 platforms/android/CordovaLib/gen
 platforms/android/CordovaLib/local.properties
+*.keystore
+build.json
 
 # wp8
 platforms/wp8/bin
