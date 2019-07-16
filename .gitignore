@@ -80,3 +80,5 @@ res/*
 .vscode/*
 typings/*
 jsconfig.json
+
+google-services.json
