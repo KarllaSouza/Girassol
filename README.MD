@@ -1,7 +1,7 @@
 # Girassol
 
 Projeto desenvolvido com Cordova para a prototipação do aplicativo idealizado como proposta para o Trabalho de conclusão de curso.
-O aplitacativo apresenta um teste para identificar possíveis riscos de depressão em adolescentes.
+O aplitacativo apresenta um teste para identificar níveis de dependência tecnológica, e possíveis riscos de depressão em adolescentes.
 
 ### Instalação
 ```bash
