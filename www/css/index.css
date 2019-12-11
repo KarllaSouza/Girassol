@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0%;
     font-family: 'Open Sans', sans-serif;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -11,31 +12,31 @@
 }
 
 #container {
-	width: 100%;
-	margin: auto;
+    width: 100%;
+    margin: auto;
 }
 
 #tab-content {
-	width: 98%;
-	margin: auto;	
+    width: 98%;
+    margin: auto;
 }
 
-#menu{
+#menu {
     width: 100%;
     background-color: #3dc1d3;
 }
 
-#fraseEfeito{
+#fraseEfeito {
     font-family: 'Lobster Two', cursive;
     color: #ffb142;
     text-align: center;
-    font-size:120%;
+    font-size: 120%;
     background-color: #fbfbfb;
     padding-top: 0.2%;
     border-bottom: solid 1px #fbfbfb;
 }
 
-#menu h1{
+#menu h1 {
     font-family: 'Montserrat Alternates', sans-serif;
     color: white;
     text-align: center;
@@ -44,74 +45,108 @@
 }
 
 .event {
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    color:#FFFFFF;
-    font-size:12px;
-    margin:0px 30px;
-    padding:2px 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 0px 30px;
+    padding: 2px 0px;
 }
 
 .event.listening {
-    background-color:#333333;
-    display:block;
+    background-color: #333333;
+    display: block;
 }
 
 .event.received {
-    background-color:#4B946A;
-    display:none;
+    background-color: #4B946A;
+    display: none;
 }
 
 @keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
-}
- 
-@-webkit-keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
-}
- 
-.blink {
-    animation:fade 3000ms infinite;
-    -webkit-animation:fade 3000ms infinite;
+    from {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1.0;
+    }
 }
 
-#sobre-tab-button{
+@-webkit-keyframes fade {
+    from {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+
+.blink {
+    animation: fade 3000ms infinite;
+    -webkit-animation: fade 3000ms infinite;
+}
+
+#sobre-tab-button {
     width: 90%;
     padding: 10px 0;
     margin-left: 1%;
     margin-top: 30%;
     font-size: 7vw;
 }
-#teste-tab-button{
-    width: 90%;
-    padding: 10px 0;
-    margin-left: 1%;
-    font-size: 7vw;
-}
-#contato-tab-button{
+
+#teste-tab-button {
     width: 90%;
     padding: 10px 0;
     margin-left: 1%;
     font-size: 7vw;
 }
 
-#enunciado{
+#contato-tab-button {
+    width: 90%;
+    padding: 10px 0;
+    margin-left: 1%;
+    font-size: 7vw;
+}
+
+#enunciado {
     font-size: 22px;
 }
 
-.justificado{
+.justificado {
     text-align: justify;
     text-justify: inter-word;
 }
 
-#quizView{
+#quizView {
     widows: 90%;
     margin: 1% 1% 1% 1%;
+}
 
+#delete-info {
+    position: fixed;
+    bottom: 1%;
+    right: 0;
+    width: 92%;
+    margin: auto;
+}
+
+#delete-info img {
+    width: 88%;
+    margin: auto;
+}
+
+#delete-info p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2vh;
+    text-align: left;
+    margin-bottom: 1%;
+    margin-top: 0%;
 }
 
 .conteudo-texto {
@@ -121,16 +156,17 @@
 
 .ui-radio input[type="radio"] {
     display: none;
-  }
+}
 
 .ui-radio .ui-btn.ui-radio-on::after {
     visibility: hidden;
 }
+
 .ui-radio .ui-btn.ui-radio-off::after {
     visibility: hidden;
 }
 
-.ui-radio .ui-radio-on{
+.ui-radio .ui-radio-on {
     background-color: #ffb142;
 }
 
