@@ -1,7 +1,7 @@
 {
     "name": "com.girassol",
     "displayName": "Girassol",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Trabalho de conclusão de curso. Teste do instituto DELETE para detecção de depressão.",
     "main": "index.js",
     "scripts": {

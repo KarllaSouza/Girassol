@@ -11,6 +11,10 @@
     text-transform: lowercase;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 #container {
     width: 100%;
     margin: auto;
@@ -112,6 +116,10 @@
     padding: 10px 0;
     margin-left: 1%;
     font-size: 7vw;
+}
+
+#contatos {
+    padding-top: 1vw;
 }
 
 #enunciado {

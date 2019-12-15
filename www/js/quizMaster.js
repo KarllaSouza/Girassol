@@ -5,6 +5,14 @@ var quizMaster = (function () {
 	var loaded = false;
 	var displayDom;
 	var successCbAlias;
+	
+	const headerResultado = "<h2>Resultado</h2>" ;
+	const openPontuacao = "<p> Sua pontuação ";
+	const closePontuacao = "</p>";
+	const naoDependente = "<p class='justificado bold'>Usuário não dependente.</p><p class='justificado'>De acordo com suas respostas, você não apresenta comportamentos de um dependente tecnológico.</p>";
+	const usuarioMedio = "<p class='justificado bold'>Você é um utilizador médio.</p><p class='justificado'>Por vezes poderá até navegar na Internet um pouco demais, no entanto, tem controle sobre a sua utilização.</p>";
+	const usuarioRisco = "<p class='justificado bold'>Usuário de risco.</p><p class='justificado'>Você começa a ter problemas ocasionais ou frequentes devido ao uso da Internet, deve considerar o impacto na sua vida por ficar ligado à Internet com frequência. Se desligue um pouco do mundo virtual, saia com os amigos, viaje, divirta-se no mundo real.</p>";
+	const usuarioAltoRisco = "<p class='justificado bold'>Usuário de alto risco.</p><p class='justificado'>Analisando seu perfil de usuário, notei que a utilização da Internet pode estar causando problemas significativos na sua vida. Você deve avaliar as consequências destes impactos e aprender a lidar com a internet de modo mais saudável e produtivo. Seria interessante você conversar com um profissional (psicólogo) para identificar se este problema é um caso isolado, ou se pode afetar de maneira negativa sua vida social.</p>";
 
 	function nextHandler(e) {
 		e.preventDefault();
@@ -69,13 +77,13 @@ var quizMaster = (function () {
 			displayDom.html(html).trigger('create');
 		} else if(current.state === "complete") {
 			if(current.correct <= 18){
-				html = "<h2>Resultado</h2><p class='justificado'>Usuário normal.</p><p> Sua pontuação "+current.correct+".</p>";
+				html =   headerResultado.concat(naoDependente).concat(openPontuacao).concat(current.correct).concat(closePontuacao);
 			} else if (current.correct >= 19 && current.correct <= 33) {
-				html = "<h2>Resultado</h2><p class='justificado'>Você é um utilizador médio. Por vezes poderá até navegar na Internet um pouco demais, no entanto, tem controle sobre a sua utilização.</p><p> Sua pontuação "+current.correct+".</p>";
+				html = headerResultado.concat(usuarioMedio).concat(openPontuacao).concat(current.correct).concat(closePontuacao);
 			} else if (current.correct >= 34 && current.correct <= 63) {
-				html = "<h2>Resultado</h2><p class='justificado'>Você começa a ter problemas ocasionais ou frequentes devido ao uso da Internet. Deve considerar o impacto na sua vida por ficar ligado à Internet com frequência.</p><p> Sua pontuação "+current.correct+".</p>";
+				html = headerResultado.concat(usuarioRisco).concat(openPontuacao).concat(current.correct).concat(closePontuacao);
 			} else if (current.correct >= 64) {
-				html = "<h2>Resultado</h2><p class='justificado'>A utilização da Internet está causando problemas significativos na sua vida. Deve avaliar as consequências destes impactos e aprender a lidar com a internet de modo mais saudável e produtivo.</p><p> Sua pontuação "+current.correct+".</p>";
+				html = headerResultado.concat(usuarioAltoRisco).concat(openPontuacao).concat(current.correct).concat(closePontuacao);
 			}
 			html += homeButton();
 
@@ -181,7 +189,6 @@ var quizMaster = (function () {
 					name = url;
 					data = res;
 					displayDom = $(dom);
-					//console.dir(res);
 					loaded = true;
 					displayQuiz(cb);
 				});
