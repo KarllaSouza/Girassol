@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/KarllaSouza/Girassol/badge.svg?targetFile=package.json)](https://snyk.io/test/github/KarllaSouza/Girassol?targetFile=package.json)
+
 # Girassol
 
 Projeto desenvolvido com Cordova para a prototipação do aplicativo idealizado como proposta para o Trabalho de conclusão de curso.
