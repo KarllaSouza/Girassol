@@ -20,7 +20,7 @@
         <resource-file src="google-services.json" target="app/google-services.json" />
         <allow-intent href="market:*" />
         <icon density="mdpi" height="57" platform="android" src="www/img/logo.png" width="57" />
-        <preference name="android-minSdkVersion" value="19" />
+        <preference name="android-minSdkVersion" value="22" />
         <preference name="android-targetSdkVersion" value="28" />
     </platform>
     <platform name="ios">
