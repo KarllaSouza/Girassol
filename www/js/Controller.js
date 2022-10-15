@@ -7,6 +7,7 @@ var Controller = function() {
         },
 
         bindEvents: function() {
+            $('.tab-back-button').on('click', this.onBackButtonClick);
             $('.tab-button').on('click', this.onTabClick);
         },
 
@@ -22,6 +23,13 @@ var Controller = function() {
                 self.renderTesteView();
             }
         },
+
+        onBackButtonClick: function(e) {
+            e.preventDefault();
+            
+            self.renderMainView();
+        },
+
 
         renderPostView: function() {
             $('.tab-button').removeClass('active');
@@ -48,6 +56,7 @@ var Controller = function() {
             $tab.empty();
             $("#tab-content").load("./views/contato-view.html", function(data) {
                 // $('#tab-content').find('#post-project-form').on('submit', self.postProject);
+                self.bindEvents();
             }); 
         },
        
@@ -56,6 +65,7 @@ var Controller = function() {
             $tab.empty();
             $("#tab-content").load("./views/sobre-view.html", function(data) {
                 // $('#tab-content').find('#post-project-form').on('submit', self.postProject);
+                self.bindEvents();
             }); 
         },
         
