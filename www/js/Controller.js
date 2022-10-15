@@ -7,6 +7,7 @@ var Controller = function() {
         },
 
         bindEvents: function() {
+            $('.link-home').on('click', this.onBackButtonClick);
             $('.tab-back-button').on('click', this.onBackButtonClick);
             $('.tab-button').on('click', this.onTabClick);
         },
